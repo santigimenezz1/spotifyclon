@@ -1,0 +1,64 @@
+.container-tarjeta-artista{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 290px;
+    border-radius: 5px;
+    background-color: rgba(233, 220, 220, 0.082);
+    cursor: pointer;
+    transition: all .3s;
+    position: relative;
+}
+
+
+
+
+.container-icono-play-off{
+    display: none;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+.container-tarjeta-artista:hover{
+    background-color: rgba(233, 220, 220, 0.205);
+
+}
+.imagen-tarjeta-artista{
+    width: 80px;
+    height: 100%;
+    border-radius: 5px;
+}
+.titulo-tarjeta-artista{
+    color: #ffff;
+    font-size: 18px;
+}
+.container-icono-play{
+    position: absolute;
+    right: 22%;
+    
+}
+
+.container-icono-play:hover{
+    transform: scale(1.05);
+
+}
+.icon-play{
+    color: black;
+}
+.icon-play:hover{
+    transform: scale(1.1);
+
+}
+
+.container-general-tarjeta{
+    border-radius: 3px solid red;
+}
+

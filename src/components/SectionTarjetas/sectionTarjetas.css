@@ -1,0 +1,37 @@
+.container-sectionTarjetas{
+    width: 1080px;
+    height: 590px;
+    background-color: rgb(20, 19, 19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+::-webkit-scrollbar {
+    width: 15px; /* Ancho del scroll */
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #5e5b5b; /* Cambia el color del thumb */
+  }
+.container-tarjetas-artistas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+    flex-direction: column;
+}
+.text-sectionTarjetas{
+    color: white;
+    margin-left: 60px;
+    padding: 20px;
+ 
+}
+.targets{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}

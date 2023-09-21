@@ -1,0 +1,25 @@
+.container-reproductor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.butons-reproductor{
+    display: flex;
+    gap: 20px;
+}
+.button-play-reproductor{
+    color: black;
+    padding: 5px; 
+    border-radius: 50px;   
+    background-color: white;
+    cursor: pointer;
+
+}
+.button-downAp{
+    color: white;
+    cursor: pointer;
+
+}

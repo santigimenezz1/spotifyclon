@@ -1,0 +1,49 @@
+.container__general__layout{
+    display: flex;
+    flex-direction: column;
+}
+
+.layout{
+    width: 100%;
+    height:85vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.layout__tarjetasArtistas__user{
+    display: flex;
+    justify-content: end;
+}
+.layout__Enlaces-Biblioteca{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.layout__tarjetasArtistas{
+    width: 70%;
+    overflow-y: scroll; 
+    overflow-x: hidden;
+    
+}
+.layout__container__tarjetaArtista{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.layout__container__tarjetaAlbum{
+    margin: 10px;
+}
+.layout__container__tarjetaAlbum__tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+

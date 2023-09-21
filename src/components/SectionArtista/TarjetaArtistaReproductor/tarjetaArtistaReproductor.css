@@ -1,0 +1,31 @@
+.container-tarjetaReproductor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 250px;
+
+}
+.image-tarjetaReproductor{
+    width: 60px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.cointainer-text-tarjetaReproductor{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.icon-tarjetaReproductor{
+    color: rgb(187, 183, 183);
+    cursor: pointer;
+  
+}
+.icon-tarjetaReproductor:hover{
+    color: white;
+    
+}
+.text-tarjetaReproductor{
+    cursor: pointer;
+}

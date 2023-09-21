@@ -1,0 +1,6 @@
+.container-layout{
+    display: flex;
+    position: absolute;
+    gap: 10px;
+  
+}

@@ -1,0 +1,15 @@
+.container-headerReproductor{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 2px; 
+}
+.rep{
+    position: absolute;
+    background-color: red;
+}

@@ -1,0 +1,24 @@
+.container-buttons-reproductor{
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.container-boton{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1DB954;
+    position: absolute;
+    border-radius: 30px;
+
+    
+   
+}
+.container-boton-off{
+    display: none;
+}
