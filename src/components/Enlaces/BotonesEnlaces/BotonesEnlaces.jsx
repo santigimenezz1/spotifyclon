@@ -3,13 +3,13 @@ import '../BotonesEnlaces/botonesEnlaces.css'
 import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from '@mui/icons-material/Search';
 
-const BotonesEnlaces = () => {
+const BotonesEnlaces = ({text}) => {
   return (
     <div className='container-botonesEnlaces'>
       <div>
       </div>
       <HomeIcon className='icon-botonesEnlaces' fontSize='large'/>
-      <a className='text-botonesEnlaces' href="">Inicio</a> 
+      <a className='text-botonesEnlaces' href="">{text}</a> 
     </div>
   )
 }

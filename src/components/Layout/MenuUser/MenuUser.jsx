@@ -24,7 +24,7 @@ export default function MenuUser() {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
       >
-        <PersonIcon fontSize='large' color='action'/>
+        <PersonIcon fontSize='medium' color='primary'/>
       </Button>
       <Menu
         id="basic-menu"

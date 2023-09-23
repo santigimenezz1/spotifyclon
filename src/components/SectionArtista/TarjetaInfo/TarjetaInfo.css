@@ -1,0 +1,29 @@
+.tarjetaInfo{
+    padding: 40px;
+    margin: 40px;
+    position: relative;
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    filter: brightness(0.7);
+    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687919282/E-COMERCE%20CODER/can_iitrzo.jpg");
+}
+.tarjetaInfo__imagen{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.tarjeta__info__description{
+    height: auto;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    color: white;
+    
+    
+}
+.tarjeta__info__description h1{
+    font-size: 18px;
+   
+}

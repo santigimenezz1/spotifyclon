@@ -8,6 +8,9 @@ import TarjetaAlbum from '../Tarjetas/TarjetaAlbum/TarjetaAlbum'
 import HeaderReproductor from '../HeaderReproductor/HeaderReproductor'
 import TarjetaArtistaReproductor from './TarjetaArtistaReproductor/TarjetaArtistaReproductor'
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+import TarjetaCancionArtista from '../Tarjetas/TarjetaCancionArtista/TarjetaCancionArtista'
+import Reproductor from '../AudioBoton/AudioBoton'
+import TarjetaInfo from './TarjetaInfo/TarjetaInfo'
 
 
 const SectionArtista = () => {
@@ -32,6 +35,19 @@ const SectionArtista = () => {
     </div>
     </div>
     <div className='container__tarjetaAlbumArtista'>
+    
+    <div className='container__tarjetasCancionesArtista'>
+    <h1 style={{color:"white"}}>Populares</h1>
+    <TarjetaCancionArtista />
+    <TarjetaCancionArtista />
+    <TarjetaCancionArtista />
+    <TarjetaCancionArtista />
+    <TarjetaCancionArtista />
+    <TarjetaCancionArtista />
+    <TarjetaCancionArtista />
+    <TarjetaCancionArtista />
+    </div>
+
      <h1 style={{color:"white"}}>Sumérgete de nuevo en tu música</h1>
      <div className='layout__container__tarjetaAlbum__tarjetas'>
        <TarjetaAlbum artista={"canserbero"} imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687919282/E-COMERCE%20CODER/can_iitrzo.jpg"} />
@@ -56,6 +72,7 @@ const SectionArtista = () => {
        <TarjetaAlbum artista={"canserbero"} imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687919282/E-COMERCE%20CODER/can_iitrzo.jpg"} />
        </div>
        </div>
+       <TarjetaInfo />
        </div>
        </div>
        <div className='container__reproductor__layout'>

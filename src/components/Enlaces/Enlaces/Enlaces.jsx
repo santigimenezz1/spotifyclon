@@ -7,8 +7,8 @@ const Enlaces = () => {
   return (
     <div className='container-enlaces'>
     <div className='container-butons'>
-    <BotonesEnlaces />
-    <BotonesEnlaces />
+    <BotonesEnlaces text={"Home"}/>
+    <BotonesEnlaces text={"Buscar"} />
     </div>
 
       

@@ -17,7 +17,7 @@
     background-color: rgba(0, 0, 0, 0.29);
 }
 .container__tarjetaAlbumArtista{
-    background: linear-gradient(rgb(19, 2, 36) 60%, rgba(119, 0, 179, 0) 100%);
+    background: linear-gradient(rgb(6, 0, 12) 60%, rgba(119, 0, 179, 0) 100%);
 }
 .layout__tarjetasArtistas__userArtista{
     display: flex;
@@ -36,4 +36,11 @@
 }
 .container__titulo__imagenArtista{
     padding: 25px;
+}
+.container__tarjetaAlbumArtista__boton{
+    height: 100px;
+}
+
+.container__tarjetasCancionesArtista{
+    padding: 50px;
 }

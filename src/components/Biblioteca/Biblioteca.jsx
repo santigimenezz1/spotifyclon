@@ -26,17 +26,21 @@ const Biblioteca = () => {
     <TarjetasBilbioteca nombreArtista={"Nach"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131478/E-COMERCE%20CODER/nach_jmet71.jpg"} />
     <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131578/E-COMERCE%20CODER/lw_nndnmq.jpg"} />
     <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
+    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131470/E-COMERCE%20CODER/soda_vy82yb.jpg"} />
+    <TarjetasBilbioteca nombreArtista={"Nach"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131478/E-COMERCE%20CODER/nach_jmet71.jpg"} />
+    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131578/E-COMERCE%20CODER/lw_nndnmq.jpg"} />
     <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
+    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131470/E-COMERCE%20CODER/soda_vy82yb.jpg"} />
+    <TarjetasBilbioteca nombreArtista={"Nach"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131478/E-COMERCE%20CODER/nach_jmet71.jpg"} />
+    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131578/E-COMERCE%20CODER/lw_nndnmq.jpg"} />
     <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
+    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131470/E-COMERCE%20CODER/soda_vy82yb.jpg"} />
+    <TarjetasBilbioteca nombreArtista={"Nach"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131478/E-COMERCE%20CODER/nach_jmet71.jpg"} />
+    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131578/E-COMERCE%20CODER/lw_nndnmq.jpg"} />
     <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
-    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
-    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
-    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
-    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
-    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
-    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
-    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
-    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
+    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131470/E-COMERCE%20CODER/soda_vy82yb.jpg"} />
+    <TarjetasBilbioteca nombreArtista={"Nach"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131478/E-COMERCE%20CODER/nach_jmet71.jpg"} />
+    <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131578/E-COMERCE%20CODER/lw_nndnmq.jpg"} />
     <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
     <TarjetasBilbioteca nombreArtista={"Cerati"}  imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
 
