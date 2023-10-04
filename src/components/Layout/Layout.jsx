@@ -7,12 +7,12 @@ import TarjetaAlbum from '../Tarjetas/TarjetaAlbum/TarjetaAlbum'
 import MenuUser from './MenuUser/MenuUser'
 import HeaderReproductor from '../HeaderReproductor/HeaderReproductor'
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+import { Link } from 'react-router-dom'
 
 
 const Layout = () => {
   return (
-    <div className='container__general__layout'>
-    
+    <div className='container__general__layout'> 
     <div className='layout'>
     <div className='layout__Enlaces-Biblioteca'>
     <Enlaces />

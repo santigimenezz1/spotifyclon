@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../TarjetaCancionArtista/TarjetaCancionArtista.css'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 const TarjetaCancionArtista = () => {
+  const [heart, setHeart] = useState(false)
   return (
     <div className='TarjetaCancionArtista'>
     <div className='tarjetaCancionArtista__logoTitulo'>
@@ -11,7 +13,23 @@ const TarjetaCancionArtista = () => {
       <h1>Tal como eres</h1>
     </div>
     <div className='tarjetaCancionArtista__tiempoHeart'>
-    <FavoriteBorderIcon style={{color:"white"}} />
+    
+   
+    {
+      
+      !heart 
+      ? 
+      <div style={{cursor:"pointer"}} onClick={()=>setHeart(!heart)}>
+      <FavoriteBorderIcon  style={{color:"white"}} /> 
+      </div>
+      : 
+      <div style={{cursor:"pointer"}} onClick={()=>setHeart(!heart)}>
+      <FavoriteIcon color="error"/>
+      </div>
+    
+
+    }
+    
     <h1>4:14</h1>
     </div>
       
