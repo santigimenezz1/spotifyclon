@@ -3,7 +3,7 @@ import PauseIcon from '@mui/icons-material/Pause';
 import '../AudioBoton/audioBoton.css'
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
-function Reproductor() {
+function Reproductor( {cancion} ) {
   const audioRef = useRef(null);
   const [botonOn,setBotonOn] = useState(true)
 
@@ -18,7 +18,10 @@ function Reproductor() {
 
   return (
     <div className='container-buttons-reproductor'>
-      <audio ref={audioRef} src="https://res.cloudinary.com/dcf9eqqgt/video/upload/v1688168252/E-COMERCE%20CODER/y2mate.com_-_Tal_Como_Eres_jcuatv.mp3" />
+    {
+      cancion &&
+      <audio ref={audioRef} src={cancion.url} />
+    }
       <div className='container-boton'>
       <PauseIcon className='icono-reproductor' onClick={pausarCancion} />
       </div>

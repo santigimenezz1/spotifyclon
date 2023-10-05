@@ -15,7 +15,7 @@ const TarjetaArtista = ( {imagen, artista} ) => {
     <img className='imagen-tarjeta-artista' src={imagen}></img>
     <span className='titulo-tarjeta-artista'>{artista}</span>
     <div className={iconPlay ?'container-icono-play':"container-icono-play-off"} >
-    <Reproductor/>
+    <Reproductor />
     </div>
 
     </div>

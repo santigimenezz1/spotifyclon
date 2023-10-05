@@ -17,6 +17,7 @@
     "@mui/material": "^5.13.6",
     "cloudinary": "^1.37.3",
     "cloudinary-react": "^1.8.1",
+    "firebase": "^10.4.0",
     "google-fonts": "^1.0.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",

@@ -26,8 +26,8 @@ const Layout = () => {
     <div style={{ padding:"20px", display:"flex", flexDirection:"column", gap:"10px"}}>
     <h1 style={{color:"white"}}>¡Buenas noches!</h1>
     <div className='layout__container__tarjetaArtista'>
-     <TarjetaArtista artista={"Canserbero"} imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687919282/E-COMERCE%20CODER/can_iitrzo.jpg"} />
-     <TarjetaArtista artista={"Adele"} imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
+     <TarjetaArtista artista={"canserbero"} imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687919282/E-COMERCE%20CODER/can_iitrzo.jpg"} />
+     <TarjetaArtista artista={"adele"} imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1687920208/E-COMERCE%20CODER/adele_q2holr.jpg"} />
      <TarjetaArtista artista={"Soda estereo"} imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131470/E-COMERCE%20CODER/soda_vy82yb.jpg"} />
      <TarjetaArtista artista={"Nach"} imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131478/E-COMERCE%20CODER/nach_jmet71.jpg"} />
      <TarjetaArtista artista={"Lewis capaldi"} imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688131578/E-COMERCE%20CODER/lw_nndnmq.jpg"} />

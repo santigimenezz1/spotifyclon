@@ -1,93 +1,29 @@
-let artistas = [
+export let artistas = [
     {
         nombre: "canserbero",
-        imagenPrincipal: "",
-        imagenSecundaria: "",
+        imagenPrincipal: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/canserbero%2Fcan1.jpg?alt=media&token=d75d62f1-4517-41bf-8afb-6000879685e2&_gl=1*14845nb*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ1NzI4LjMyLjAuMA..",
+        imagenSecundaria: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/canserbero%2Fcan2.jfif?alt=media&token=8bc855b7-34cf-473c-bed2-bffd1ce1ea1e&_gl=1*zpzw8m*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ1NzM4LjIyLjAuMA..",
         canciones: [
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
+            { nombre: "es epico", imagen: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/canserbero%2Fvida.jpg?alt=media&token=716153b5-1622-4e0e-aa38-18137a894733" },
+            { nombre: "maquiavelico", imagen: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/canserbero%2Fmuerte.png?alt=media&token=9daf2476-b844-46a8-99a0-b5503865dc25&_gl=1*fh28xg*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ1NzAwNC4xNDIuMS4xNjk2NDU3MTExLjIzLjAuMA..", url: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/canserbero%2FCANSERBERO-MAQUIAVELICO.mp3?alt=media&token=b0d8434f-3f00-4db9-8947-755c312756ac&_gl=1*fl6k63*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ0OTcxLjYwLjAuMA.." },
+            { nombre: "mundo de piedra", imagen: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/canserbero%2Fcantriangulo.png?alt=media&token=b4b0e036-637f-4452-a9b0-e40f7449f5b4&_gl=1*u2avog*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ1NzAwNC4xNDIuMS4xNjk2NDU3MTMzLjEuMC4w", url: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/canserbero%2FCANSERBERO-MUNDO%20DE%20PIEDRA.mp3?alt=media&token=e3b7c2be-81ca-4082-ba06-ffbc060128f9&_gl=1*r73fjg*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ0OTkyLjM5LjAuMA.." },
+            { nombre: "pensando en ti", imagen: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/canserbero%2Fcantriangulo.png?alt=media&token=b4b0e036-637f-4452-a9b0-e40f7449f5b4&_gl=1*u2avog*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ1NzAwNC4xNDIuMS4xNjk2NDU3MTMzLjEuMC4w", url: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/canserbero%2FCANSERBERO-PENSANDO%20EN%20TI.mp3?alt=media&token=6f416c30-751f-46f8-a1ba-23ba1f56a684&_gl=1*1b2edop*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ1MDI2LjUuMC4w" },
+            { nombre: "te quiero", imagen: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/canserbero%2Fcantriangulo.png?alt=media&token=b4b0e036-637f-4452-a9b0-e40f7449f5b4&_gl=1*u2avog*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ1NzAwNC4xNDIuMS4xNjk2NDU3MTMzLjEuMC4w", url: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/canserbero%2FCANSERBERO-TE%20QUIERO.mp3?alt=media&token=8ff0c945-0485-40af-87b9-c3b570568002&_gl=1*lsfm57*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ1MDQyLjYwLjAuMA.." },
         ]
     },
     {
         nombre: "adele",
-        imagenPrincipal: "",
-        imagenSecundaria: "",
+        imagenPrincipal: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/adele%2Fadele1.jfif?alt=media&token=3bb03574-c51d-47fd-80b4-611071ae7a0e&_gl=1*9cxn0k*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ1NzY4LjU2LjAuMA..",
+        imagenSecundaria: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/adele%2Fadele2.jpeg?alt=media&token=56e1c399-8d9e-454f-9a0c-b3eaadcc35f8&_gl=1*3jen92*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ1Nzg1LjM5LjAuMA..",
         canciones: [
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
+            { nombre: "easy on me", imagen: "", cancion: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/adele%2Fy2mate.com%20-%20Adele%20%20Easy%20On%20Me%20Subtitulado%20Espa%C3%B1ol.mp3?alt=media&token=183921fb-e531-4559-a862-42e02b300aa8&_gl=1*ph8gls*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ1MTI4LjM0LjAuMA.." },
+            { nombre: "cancion 2", imagen: "", cancion: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/adele%2Fy2mate.com%20-%20Adele%20%20Rolling%20in%20the%20Deep%20Official%20Music%20Video.mp3?alt=media&token=d3ee2ef7-6318-47ac-b760-83af9eaac33e&_gl=1*1y4t7od*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ1MTk2LjYwLjAuMA.." },
+            { nombre: "cancion 3 ", imagen: "", cancion: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/adele%2Fy2mate.com%20-%20Adele%20%20Set%20Fire%20To%20The%20Rain%20Live%20at%20The%20Royal%20Albert%20Hall.mp3?alt=media&token=97ae4000-04f1-477d-9337-4f70c2929bb9&_gl=1*1edznyh*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ1MjI2LjMwLjAuMA.." },
+            { nombre: "cancion 4", imagen: "", cancion: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/adele%2Fy2mate.com%20-%20Adele%20%20Someone%20Like%20You%20Official%20Music%20Video.mp3?alt=media&token=f6acc554-b051-4f32-8518-3269883e4de3&_gl=1*1sij4t1*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ1MjgyLjYwLjAuMA.." },
+            { nombre: "cancion 5 ", imagen: "", cancion: "https://firebasestorage.googleapis.com/v0/b/spotify-3a924.appspot.com/o/adele%2Fy2mate.com%20-%20Love%20In%20The%20Dark.mp3?alt=media&token=c01afb7f-5f72-4513-9e57-dc222c8c7b12&_gl=1*1xwzlxo*_ga*MTE5MzgzMzUwMi4xNjg3ODAzOTY2*_ga_CW55HF8NVT*MTY5NjQ0MzczNy4xNDEuMS4xNjk2NDQ1Mjk3LjQ1LjAuMA.." },
+           
         ]
     },
-    {
-        nombre: "nach",
-        imagenPrincipal: "",
-        imagenSecundaria: "",
-        canciones: [
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-        ]
-    },
-    {
-        nombre: "soda estereo",
-        imagenPrincipal: "",
-        imagenSecundaria: "",
-        canciones: [
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-        ]
-    },
-    {
-        nombre: "lewis capaldi",
-        imagenPrincipal: "",
-        imagenSecundaria: "",
-        canciones: [
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-        ]
-    },
-    {
-        nombre: "intoxicados",
-        imagenPrincipal: "",
-        imagenSecundaria: "",
-        canciones: [
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-            { nombre: "pensando en ti", imagen: "", url: "" },
-        ]
-    },
+   
 
 ]

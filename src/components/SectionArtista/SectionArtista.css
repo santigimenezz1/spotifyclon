@@ -1,10 +1,14 @@
 .container__imagenArtista{
-    height: 300px;
-    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688410804/E-COMERCE%20CODER/can_ygbloi.jpg");
+    position: relative;
+}
+.container__imagenArtista img{
+    height: 400px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(0.9);
+    filter: brightness(0.6);
     background-attachment: fixed;
+
 
 }
 .container__imagenArtista::before{
@@ -24,6 +28,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
 }
 .titulo__artista__sectionArtista{
     font-size: 90px;
@@ -43,4 +51,9 @@
 
 .container__tarjetasCancionesArtista{
     padding: 50px;
+}
+.container__titulo__imagenArtista{
+    position: absolute;
+    top: 30%;
+    left: 5%;
 }
