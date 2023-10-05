@@ -1,16 +1,22 @@
 import React from 'react'
 import '../TarjetaBiblioteca/TarjetaBiblioteca.css'
+import { Link } from 'react-router-dom'
 
-const TarjetasBilbioteca = ( {imagen, nombreArtista} ) => {
+const TarjetasBilbioteca = ( {artista} ) => {
   return (
-    <div className='container-tarjeta-biblioteca'>
-    <img className='img-tarjeta-biblioteca' src={imagen}></img>
-    <div className='text-tarjeta-biblioteca'>
-     <span>{nombreArtista}</span>
-     <span>Artista</span>
-    </div>
-      
-    </div>
+    <Link to={`/sectionArtista/${artista.nombre}`} className='container-tarjeta-biblioteca'>
+    
+    {
+      artista &&
+      <>
+      <img className='img-tarjeta-biblioteca' src={artista.imagenPrincipal}></img>
+      <div className='text-tarjeta-biblioteca'>
+      <span>{artista.nombre}</span>
+      </div>
+      </>
+       
+    }
+    </Link>
   )
 }
 

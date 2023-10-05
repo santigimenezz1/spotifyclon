@@ -7,6 +7,7 @@ import Layout from './components/Layout/Layout'
 import SectionInicioSesion from './components/SectionInicioSesion/SectionInicioSesion'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import DashBoard from './Dashboard/Dashboard'
+import SectionFavoritos from './components/SectionFavoritos/SectionFavoritos'
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
     <Route path='/' element={<Layout />} />
     <Route path='/sectionArtista/:nombreArtista' element={<SectionArtista />} />
     <Route path='/dashboard' element={<DashBoard />} />
+
 
 
      

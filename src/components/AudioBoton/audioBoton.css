@@ -1,12 +1,10 @@
 .container-buttons-reproductor{
-    border: 2px solid black;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: start;
 }
 .container-buttons-reproductor:hover{
-    border: 2px solid black;
     position: relative;
     display: flex;
     align-items: center;

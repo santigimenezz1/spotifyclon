@@ -1,22 +1,21 @@
 import React, { useEffect, useState } from 'react'
-import '../SectionArtista/SectionArtista.css'
-import Enlaces from '../Enlaces/Enlaces/Enlaces'
-import Biblioteca from '../Biblioteca/Biblioteca'
-import MenuUser from '../layout/MenuUser/MenuUser'
-import TarjetaArtista from '../Tarjetas/TarjetaArtista/TarjetaArtista'
-import TarjetaAlbum from '../Tarjetas/TarjetaAlbum/TarjetaAlbum'
-import HeaderReproductor from '../HeaderReproductor/HeaderReproductor'
-import TarjetaArtistaReproductor from './TarjetaArtistaReproductor/TarjetaArtistaReproductor'
+import "../SectionFavoritos/SectionFavoritos.css"
+
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
-import TarjetaCancionArtista from '../Tarjetas/TarjetaCancionArtista/TarjetaCancionArtista'
-import Reproductor from '../AudioBoton/AudioBoton'
-import TarjetaInfo from './TarjetaInfo/TarjetaInfo'
-import { db } from '../../firebaseConfig'
-import { collection, getDoc, getDocs, query, where } from 'firebase/firestore'
-import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom';
+import { db } from '../../firebaseConfig';
+import { collection, getDocs, query, where } from 'firebase/firestore';
+import Biblioteca from '../Biblioteca/Biblioteca';
+import Enlaces from '../Enlaces/Enlaces/Enlaces';
+import MenuUser from '../layout/MenuUser/MenuUser';
+import TarjetaCancionArtista from '../Tarjetas/TarjetaCancionArtista/TarjetaCancionArtista';
+import TarjetaAlbum from '../Tarjetas/TarjetaAlbum/TarjetaAlbum';
+import TarjetaInfo from '../SectionArtista/TarjetaInfo/TarjetaInfo';
+import HeaderReproductor from '../HeaderReproductor/HeaderReproductor';
 
 
-const SectionArtista = () => {
+
+const SectionFavorito = () => {
   const [data, setData] = useState()
   const [artistas, setArtistas] = useState([])
   const { nombreArtista }  = useParams()
@@ -63,13 +62,7 @@ const SectionArtista = () => {
     }
     <div className='container__titulo__imagenArtista'>
     <h1 style={{color:"white"}} className='titulo__artistaVerificado'>Artista verificado</h1>
-    {
-      data ?
-      <h1 className='titulo__artista__sectionArtista'>{data[0].nombre}</h1>
-      
-      :
-      <h1 className='titulo__artista__sectionArtista'>Pendiente...</h1>
-    }
+      <h1 className='titulo__artista__sectionArtista'>Canciones que te gustan</h1>  
     </div>
     <div className='layout__tarjetasArtistas__userArtista'>
     <NavigateBeforeIcon style={{color:"black"}} fontSize='large' />
@@ -122,4 +115,4 @@ const SectionArtista = () => {
   )
 }
 
-export default SectionArtista
+export default SectionFavorito

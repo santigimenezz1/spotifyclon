@@ -2,10 +2,11 @@
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     cursor: pointer;
     border-radius: 7px;
     padding: 7px;
+    text-decoration: none;
 }
 .container-tarjeta-biblioteca:hover{
     background-color: rgba(51, 48, 48, 0.644);
@@ -14,6 +15,7 @@
 }
 .img-tarjeta-biblioteca{
     width: 55px;
+    height: 55px;
     border-radius: 50px;
 }
 .text-tarjeta-biblioteca{
